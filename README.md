@@ -1,0 +1,1 @@
+# manam-store
