@@ -5,5 +5,5 @@ Manam is a social commerce platform for Indian people around the world. Users ca
 
 Manam Store is a extension of our location based social network platform for Telugu Speaking people around the world. Our team's goal is to onboard Indian community users into Decentralized marketplace ecosystem and take advantage of social commerce using Harmony ecosystem. 
 
-Please watch our first version of app 
+Please watch about our first version of app at
 https://www.youtube.com/watch?v=jwC5gGXRqIg
