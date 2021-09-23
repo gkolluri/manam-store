@@ -1,29 +1,16 @@
-# Manam Store
+This is the tutorial from [DApp Univeristy](https://www.dappuniversity.com/) which is configured to work on harmony blockchain.
 
-Manam is a social commerce platform for Indian people around the world. Users can view and order goods from hyper local and global business. Orders and reviews of the transactions stay on blockchain which helps in building the customers locality. All the financial transactions are powered by PayWithTerra. https://paywithterra.com/
+# Video Tutorial
+[![Video Tutorial](https://img.youtube.com/vi/ULUl5SPJ0FY/0.jpg)](https://www.youtube.com/watch?v=ULUl5SPJ0FY)
 
 
-Manam Store is a extension of our location based social network platform for Telugu Speaking people around the world. Our team's goal is to onboard Indian community users into Decentralized marketplace ecosystem and take advantage of social commerce using Harmony ecosystem. 
+# Steps
+* Fund your public key with test ONE tokens ([faucet](https://faucet.pops.one/))   
+![gif for funding](test-net-funding.gif)
+* Update truffle-config.js, replace <private key> with your private key 
+* `npm install`
+* `truffle compile`
+* `truffle migrate --reset --network testnet`
+* `npm start` which should popup http://localhost:3000/ page
+* make sure to connect metamask to harmony testnet, as the marketplace contracts are deployed on harmony testnet ([instructions](https://davincigalleryone.gitbook.io/davinci-gallery/connect-to-a-wallet))
 
-Please watch about our first version of app at
-https://www.youtube.com/watch?v=jwC5gGXRqIg
-
-Project Setup
-
-Install Node
-
-Install Truffle
-
-npm install -g truffle
-
-Then run below commands in terminal to compile smart contracts
-
-truffle migrate
-
-Run below command to launch truffle test network like ganache
-
-truffle develop
-
-Navigate to Client directory and run
- npm intall
- npm start
