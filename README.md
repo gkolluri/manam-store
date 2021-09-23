@@ -16,6 +16,8 @@ Install Truffle
 
 npm install -g truffle
 
+truffle init
+
 Then run below commands in terminal to compile smart contracts
 
 truffle migrate
