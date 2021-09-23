@@ -7,3 +7,23 @@ Manam Store is a extension of our location based social network platform for Tel
 
 Please watch about our first version of app at
 https://www.youtube.com/watch?v=jwC5gGXRqIg
+
+Project Setup
+
+Install Node
+
+Install Truffle
+
+npm install -g truffle
+
+Then run below commands in terminal to compile smart contracts
+
+truffle migrate
+
+Run below command to launch truffle test network like ganache
+
+truffle develop
+
+Navigate to Client directory and run
+ npm intall
+ npm start
