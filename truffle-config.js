@@ -1,7 +1,7 @@
 require('babel-register');
 require('babel-polyfill');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const privateKeyTest = '566f8b2eb9f7fd0c74833763654097681cc328cc750744e4ea622fe7cbdc0a2d';
+const privateKeyTest = 'd20f32bd53c439f86b80e31c74d3b344274daf8bcef6111d1e7177c10d392ce4';
 
 module.exports = {
   networks: {
